@@ -1,0 +1,211 @@
+@import url("reset.css");
+/*
+12grid, 
+1 = 8.3333% / 2 = 16.6666% / 3 = 24.9999% / 4 = 33.3332% / 5 = 41.6665%
+6 = 49.9998% / 
+
+height:6 grid or 12 grid
+200 / 100
+1200 모니터 기준 : 100vh=1054, 50vh= 527
+width 1513에서 한번 스타일 변경해줄 것!
+
+*/
+body {width:100%;height:100%;min-height:500px;background:linear-gradient(to bottom,rgba(0,0,0,0.2),rgba(0,0,0,0)),url(../img/bg_grain1.png)0 0 repeat-x;background-attachment:fixed;position:relative;/*min-width:1513px*/min-width:1px}
+
+/*----------
+header
+----------*/
+
+#header {width:100%;height:auto;padding:30px;position:fixed;z-index:10;box-sizing:border-box;mix-blend-mode:exclusion}
+#header .headerWrap {width:100%}
+#header .headerWrap .headertitle {width:100%}
+#header .headerWrap .headertitle:after {content:'';clear:both;display:block}
+#header .headerWrap .headertitle h1 {margin-top:-20px}
+#header .headerWrap .headertitle h1:first-child {width:16.6666%}
+#header .headerWrap .headertitle h1:last-child {width:auto}
+#header .headerWrap .headertitle h1.titleL {padding-right:5px;float:left;text-shadow: 0 0 7px rgba(0,0,0,1),2px 0 2px rgba(0,0,0,1),0 2px 2px rgba(0,0,0,1),-2px 0 2px rgba(0,0,0,1),0 -2px 2px rgba(0,0,0,1)}
+/*blur text*/
+#header .headerWrap .headertitle h1.titleR {padding-left:5px;float:right;text-align:right;}
+#header .headerWrap .headertitle h1 a {display:block;box-sizing:border-box;font-family:'Anton', sans-serif;font-size:4rem;transition:all 0.7s ease;-webkit-transition:all 0.7s ease;-o-transition:all 0.7s ease;-moz-transition:all 0.7s ease}
+#header .headerWrap .headertitle h1.titleL a {color:rgba(0,0,0,1);opacity:0.6}
+#header .headerWrap .headertitle h1.titleL a:hover {color:#000;text-shadow:none;opacity:1}
+#header .headerWrap .headertitle h1.titleR a {color:#fff;text-shadow:none;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000} 
+#header .headerWrap .headertitle h1.titleR a:hover {color:#000;text-shadow: 0 0 7px rgba(0,0,0,1),2px 0 2px rgba(0,0,0,1),0 2px 2px rgba(0,0,0,1),-2px 0 2px rgba(0,0,0,1),0 -2px 2px rgba(0,0,0,1);opacity:0.6}
+
+/*aside-gnb*/
+#aside {width:16.6666%;height:auto;padding:0 0 0 30px;box-sizing: border-box;position:fixed;z-index:1}
+#aside .gnbWrap {width:100%;height:100vh;box-sizing:border-box;padding-right:5px;position:relative}
+#aside .gnbWrap .gnb {position:absolute;height:320px;width:auto;top:0;bottom:0;left:0;right:0;margin:auto}
+#aside .gnbWrap ul.gnbList li a {display:block;font-size:4rem;font-family:'Anton',sans-serif;line-height:5rem;transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-o-transition:all 0.5s ease;-moz-transition:all 0.5s ease}
+#aside .gnbWrap ul.gnbList li a:hover {color:rgba(255,255,255,1);text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000}
+
+
+/*----------
+content
+----------*/
+
+#container {width:100%;overflow-y:auto}
+#container > div {width:100%;height:100vh;min-height:700px;padding:30px;box-sizing:border-box}
+#container > div:after {clear:both;content:'';display:block}
+
+/*home*/
+#container .home {width:100%;overflow:hidden;padding-bottom:0;z-index:-1;position:relative}
+#container .home > div.bg3,#container .home > div.Bginner3 {height:100%;box-sizing:border-box}
+#container .home > div.bg3 {display:block;margin:0 0 0 16.6666%;width:83.3334%;background:url(../img/3.png)50% 0 no-repeat;background-size:cover}
+#container .home > div.Bginner3 {display:block;position:absolute;top:0;bottom:0;right:0;left:0;margin:0 0 0 57.5%;width:32.5%;background:url(../img/mobile.png)50% 50% no-repeat;background-size:contain}
+
+/*#container .home div.eventStopBtn {position:absolute;width:45px;height:45px;bottom:160px;right:16.6666%;z-index:100}
+#container .home div.eventStopBtn > button {width:45px;height:45px;box-sizing:border-box;padding:10px;border:1px solid #222;cursor:pointer}
+#container .home div.eventStopBtn > button > img {width:100%;cursor:pointer}*/
+
+/*about*/ 
+
+/*aboutImg 시작*/
+#container #about {width:100%;padding:30px;box-sizing:border-box;background:linear-gradient(to bottom,rgba(255,255,255,0),rgba(38,93,134,0.1))}
+#container #about:after {clear:both;content:'';display:none}
+#container #about .aboutImg {width:33.3332%;height:100%;margin-left:8.3333%;float:left;box-sizing:border-box;border-right:1px solid #bbb;position:relative}
+#container #about .aboutImg .AImgbox {width:100%;height:70vh;background:url(../img/me5.png)50% 0 no-repeat;background-size:cover;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto}
+
+/*aboutTxt 시작*/
+#container #about .aboutTxt {width:58%;height:100%;float:left;box-sizing:border-box;padding-left:5px;position:relative}
+#container #about .aboutTxt .aboutTxtWrap {width:83.3334%;height:500px;position:absolute;top:0;bottom:0;right:0;left:0;margin:auto;}
+#container #about .aboutTxt .aboutTxtWrap p {line-height:21px}
+
+/*aboutTxt 상단*/
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap .aboutTxtWrap-top {width:100%;height:auto;margin-bottom:30px}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap .aboutTxtWrap-top h2 {font-size:1.5em;line-height:1.8em;font-weight:bold}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap .aboutTxtWrap-top p {font-size:12px;color:#222;line-height:14px}
+
+
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap {width:100%;height:auto}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap:after {display:block;content:'';clear:both}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox:first-child {width:33.3333%;float:left;box-sizing:border-box;padding:0 20px}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox:last-child {width:66.6666%;float:left;box-sizing:border-box;padding:0 20px}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox .about_me_cont p.Small_mobile_txt {display:none}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox p {text-align:justify}
+
+/*그래프*/
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox .about_skill_graph h2 {font-size:1.5em;line-height:1.8em;margin-bottom:20px;font-weight:500}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox .graph {width:100%;height:auto;list-style:none}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox .graph li {width:75%;position:relative;white-space:nowrap;margin-bottom:10px;font-weight:400}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox .graph li > span {display:inline-block;position:relative;height:3px;line-height:3px;background:#222;width:100%}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox .graph li em {position:absolute;top:0;right:-45px;color:#000;font-weight:400}
+
+/*자기소개*/
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox2 .about_me_cont h2 {font-size:1.5em;line-height:1.8em;margin-bottom:20px;font-weight:500}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox2 .about_me_cont p {margin-bottom:15px}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox2 .about_me_cont p:last-child {margin-bottom:30px}
+
+/*스킬 설명*/
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox2 .about_skill_cont {width:100%}
+
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox2 .about_skill_cont .about_skill_contBox {width:100%;margin-bottom:15px}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox2 .about_skill_cont .about_skill_contBox:after {display:block;content:'';clear:both}
+
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox2 .about_skill_cont .about_skill_contBox p.skill_contBox_title {width:30%;float:left;font-weight:500}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > 
+div.aboutTxtBox2 .about_skill_cont .about_skill_contBox p.skill_contBox_cont {width:70%;float:left;/*font-size:12px*/}
+
+/*portfolio*/
+#container #portfolio {height:auto;overflow:hidden;position:relative;background:linear-gradient(to bottom,rgba(38,93,134,0.1),rgba(151,101,102,0.1))}
+#container #portfolio > div.portfolioBox:after {content:'';clear:both;display:block}
+#container #portfolio > div.portfolioBox {height:50vh;min-height:500px;width:58.3331%;box-sizing:border-box}
+#container #portfolio > div.portfolioBox:nth-child(2n-1) {margin:0 8.3332% 0 33.3332%;/*border-left:1px solid #aaa*/}
+#container #portfolio > div.portfolioBox:nth-child(2n) {margin:0 24.9999% 0 16.6666%/*;border-right:1px solid #bbb*/}
+#container #portfolio > div.portfolioBox:nth-child(2n-1) .portTxt {border-left:1px solid #bbb}
+#container #portfolio > div.portfolioBox:nth-child(2n) .portImg {border-right:1px solid #bbb}
+#container #portfolio > div.portfolioBox .portTxt {width:33.3333%;height:83.3333%;float:left;text-align:left;overflow:hidden;padding:0 30px;box-sizing:border-box;position:relative}
+#container #portfolio > div.portfolioBox .portImg {width:66.6666%;height:83.3333%;float:left;box-sizing:border-box;padding-right:30px;position:relative}
+#container #portfolio > div.portfolioBox .Mobile_portImg {display:none}
+#container #portfolio > div.portfolioBox .portTxt .titleBox {width:100%;height:15%;box-sizing:border-box;position:relative;line-height:21px}
+#container #portfolio > div.portfolioBox .portTxt .titleBox:after {content:'';clear:both;display:block}
+#container #portfolio > div.portfolioBox .portTxt .titleBox .TFloatL {width:85%;float:left}
+#container #portfolio > div.portfolioBox .portTxt .titleBox .TFloatR {width:15%;float:left;text-align:right}
+#container #portfolio > div.portfolioBox .portTxt .titleBox > div > p.type {font-size:12px;color:#444;line-height:14px;font-weight:400}
+#container #portfolio > div.portfolioBox .portTxt .titleBox > div > p.type1 {font-size:12px;color:#222;line-height:14px;font-weight:400}
+#container #portfolio > div.portfolioBox .portTxt .contBox h2 {font-size:1.5em;font-weight:bold;line-height:1.8em}
+#container #portfolio > div.portfolioBox .portTxt .contBox {width:100%;height:85%}
+#container #portfolio > div.portfolioBox .portTxt .contBox p.contBox-cont {text-align:justify;line-height:21px}
+#container #portfolio > div.portfolioBox .portTxt .contBox .Tobottom {box-sizing:border-box;padding-right:30px; position:absolute;bottom:0px;line-height:21px}
+#container #portfolio > div.portfolioBox .portTxt .contBox .contBox-crossB {font-weight:500!important;color:#222}
+#container #portfolio > div.portfolioBox .portTxt .contBox .contBox-url {margin-top:5px}
+#container #portfolio > div.portfolioBox .portTxt .contBox .contBox-url a {display:inline-block;width:72px;text-align: center;border:1px solid #111;transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-o-transition:all 0.5s ease;-moz-transition:all 0.5s ease;text-transform:uppercase;font-weight:bold;padding:3px 2px 0}
+#container #portfolio > div.portfolioBox .portTxt .contBox .contBox-url a:hover {background:#222;color:#fff}
+#container #portfolio > div.portfolioBox .portImg a {display:block;height:100%}
+#container #portfolio > div.portfolioBox:nth-child(2) .portTxt .contBox .contBox-url a {width:115px}
+#container #portfolio > div.portfolioBox .portTxt .contBox .selectLinkBox {line-height:18px;-webkit-appearance:none;-moz-appearance:none;border-radius:0;-webkit-border-radius:0;padding:4px 15px 2px 4px;background: url("../img/select_tri.png") no-repeat 98% 50%;background-size: 10px;background-color:rgba(0,0,0,0);border:1px solid #111;font-family:'Lato','Noto Sans KR','Sans-serif';font-size:14px;font-weight:bold;margin:3px 0;cursor:pointer}
+/*IE 10+의 css*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+#container #portfolio > div.portfolioBox .portTxt .contBox .contBox-url a {display:inline-block;width:72px;text-align: center;border:1px solid #111;transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-o-transition:all 0.5s ease;-moz-transition:all 0.5s ease;text-transform:uppercase;font-weight:bold;padding:2px}
+#container #portfolio > div.portfolioBox .portTxt .contBox .selectLinkBox {-webkit-appearance:none;border-radius:0;-webkit-border-radius:0;padding:5px 15px 0px 2px;background: url("../img/select_tri.png") no-repeat 98% 50%;background-size: 10px;background-color:rgba(0,0,0,0);border:1px solid #111;font-family:'Lato','Noto Sans KR','Sans-serif';font-size:14px;font-weight:bold;margin:3px 0;cursor:pointer}
+}
+/*firefox의 css*/
+ @-moz-document url-prefix() {
+#container #portfolio > div.portfolioBox .portTxt .contBox .selectLinkBox {-moz-appearance:none;border-radius:0;-webkit-border-radius:0;padding:0px 15px 0px 0px;background: url("../img/select_tri.png") no-repeat 98% 50%;background-size: 10px;background-color:rgba(0,0,0,0);border:1px solid #111;font-family:'Lato','Noto Sans KR','Sans-serif';font-size:14px;font-weight:bold;margin:3px 0;cursor:pointer}
+}
+
+#container #portfolio > div.portfolioBox .portImg a > .portImgWrap {width:100%;height:100%;background-color:rgba(0,0,0,0);transition:all 0.7s ease;-o-transition:all 0.7s ease;-moz-transition:all 0.7s ease;overflow:hidden;position:relative}
+#container #portfolio > div.portfolioBox .portImg a > .portImgWrap p {width:100%;height:14px;color:rgba(255,255,255,0);position:absolute;top:0;left:0;bottom:0;right:0;margin:auto;text-align:center;font-weight:400;transition:all 0.7s ease;-o-transition:all 0.7s ease;-moz-transition:all 0.7s ease}
+#container #portfolio > div.portfolioBox .portImg a:hover .portImgWrap {background-color:rgba(0,0,0,0.85)}
+#container #portfolio > div.portfolioBox .portImg a:hover .portImgWrap p {color:rgba(255,255,255,1)}
+#container #portfolio > div.portfolioBox:first-child .portImg a {background:url(../img/port_1.jpg)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(2) .portImg a {background:url(../img/port_3.png)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(3) .portImg a {background:url(../img/port_4.jpg)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(4) .portImg a {background:url(../img/port_4.png)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(5) .portImg a {background:url(../img/port_2.png)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(6) .portImg a {background:url(../img/port_6.png)50% 0% no-repeat;background-size:cover}
+
+/*contact*/
+#container #contact {width:100%;overflow:hidden;padding:0 30px;background:linear-gradient(to bottom,rgba(151,101,102,0.1),rgba(0,0,0,0))}
+#container #contact .cont-left {box-sizing:border-box;width:49.9998%;height:100%;margin-left:16.6666%;padding:0 5px;border-left:1px solid #bbb;float:left;background:url(../img/bg_2112.png)60% 100% no-repeat;background-size:cover}
+#container #contact .cont-right {box-sizing:border-box;width:33.3332%;height:100%;padding-right:5px;float:right}
+#container #contact .cont-right .cont-right-Wrap {position:relative;width:100%;height:100%}
+#container #contact .cont-right .cont-right-Wrap-Wrap {position:absolute;height:300px;top:0;right:0;left:0;bottom:0;margin:auto}
+#container #contact .cont-right .Contitle {width:350px;height:50px;margin:0 auto;padding-left:10px;box-sizing:border-box}
+#container #contact .cont-right .Contitle h2 {font-size:1.5em;font-weight:bold}
+
+#container #contact .cont-right .cont-right-form {width:350px;margin:0 auto;height:auto;position:relative}
+#container #contact .cont-right .cont-right-form:after {content:'';clear:both;display:block}
+#container #contact .cont-right .cont-right-form > div,#container #contact .cont-right .cont-right-form > form {float:left;box-sizing:border-box}
+#container #contact .cont-right .cont-right-form .cont-right-form-title-left {width:30%;padding-left:10px}
+#container #contact .cont-right .cont-right-form .cont-right-form-title-left p {line-height:24px;font-weight:500}
+#container #contact .cont-right .cont-right-txt > div > p {line-height:21px}
+#container #contact .cont-right .cont-right-form form {width:70%;padding-left:10%}
+#container #contact .cont-right .cont-right-form form input[type=text] {border:none;background-color:rgba(255,255,255,0);border-bottom:1px solid rgba(0,0,0,0.7);padding:2px;margin-bottom:2px;-webkit-appearance:none;-moz-appearance: none;-webkit-border-radius:0;border-radius:0;width:150px}
+#container #contact .cont-right .cont-right-form form .subBtn {position:absolute;width:auto;right:56px;margin-top:5px}
+#container #contact .cont-right .cont-right-form form .subBtn input[type=submit] {border:none;background-color:rgba(255,255,255,0);cursor:pointer;border:1px solid rgba(0,0,0,0.7);transition:all 0.3s ease;padding:2px;
+-webkit-appearance:none;-moz-appearance: none;-webkit-border-radius:0;border-radius:0}
+#container #contact .cont-right .cont-right-form form .subBtn input[type=submit]:hover {background-color:rgba(0,0,0,0.7);color:#fff}
+
+#container #contact .cont-right .cont-right-txt {width:350px;margin:0 auto;height:auto;margin-bottom:30px;}
+#container #contact .cont-right .cont-right-txt:after {content:'';clear:both;display:block}
+#container #contact .cont-right .cont-right-txt > div {float:left;box-sizing:border-box}
+#container #contact .cont-right .cont-right-txt > div:first-child {width:30%;padding-left:10px}
+#container #contact .cont-right .cont-right-txt > div:nth-child(2) {width:70%;padding-left:10%}
+#container #contact .cont-right .cont-right-txt > div > p {line-height:21px}
+#container #contact .cont-right .cont-right-txt > div p.Cname {font-weight:500}
+
+/*----------
+float Text
+----------*/
+
+#floatText {width:16.6666%;right:-6.4666%;position:fixed;text-align:right;height:100%;z-index:1}
+#floatText .floatTxtWrap {width:100%;position:relative}
+#floatText .floatTxtWrap {position:absolute; top:0;bottom:0;left:0;margin:auto;height:200px}
+#floatText .floatTxtWrap .floatTxt p {transform:rotate(90deg);-ms-transform:rotate(90deg);-webkit-transform:rotate(90deg);-moz-transform: rotate(90deg);-o-transform:rotate(90deg);font-size:12px;font-weight:400}
+#floatText .floatTxtWrap .floatTxt p span {font-size:12px;font-weight:400}
+
+
+/*----------
+footer
+----------*/
+
+#footer {width:100%;}
+#footer .footerWrap {padding:30px;width:100%;height:auto;box-sizing: border-box;position:fixed;bottom:0;right:0}
+#footer .copy {width:100%}
+#footer .copy:after {content:'';clear:both;display:block}
+#footer .copy p {width:33.3332%;box-sizing:border-box;padding-right:5px;float:left;font-size:12px;line-height:14px;font-weight:400}
+#footer .copy p:last-child {padding-right:0px}
+#footer .copy p.copyL {text-align:left}
+#footer .copy p.copyM {text-align:center}
+#footer .copy p.copyR {text-align:right}

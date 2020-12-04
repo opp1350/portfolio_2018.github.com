@@ -1,0 +1,225 @@
+@media only screen and (min-width:1532px) and (max-width:1890px) {
+#container #portfolio > div.portfolioBox .portTxt {width:41.6665%}
+#container #portfolio > div.portfolioBox .portImg {width:58.3331%}
+}
+@media only screen and (min-width:1376px) and (max-width:1531px) {
+#container #portfolio > div.portfolioBox .portTxt {width:41.6665%;padding:0 15px}
+#container #portfolio > div.portfolioBox .portImg {width:58.3331%;padding-right:15px}
+#container #portfolio > div.portfolioBox .portTxt .contBox .Tobottom {padding-right:15px}
+}
+
+@media only screen and (min-width:1205px) and (max-width:1375px) {
+#header .headerWrap .headertitle h1 {margin-top:-16px}
+#header .headerWrap .headertitle h1 a {font-size:3.5rem}
+#aside .gnbWrap .gnb {height:225px}
+#aside .gnbWrap ul.gnbList li a {font-size:3.5rem}
+#container .home > div.Bginner3 {display:block;position:absolute;top:0;bottom:0;right:0;left:0;margin:0 0 0 50%;width:38%;background:url(../img/mobile.png)50% 50% no-repeat;background-size:contain}
+#container #about .aboutTxt .aboutTxtWrap {width:91.6663%}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox {padding:0 20px 0 0 !important}
+#container #portfolio > div.portfolioBox {width:auto}
+#container #portfolio > div.portfolioBox:nth-child(2n-1),#container #portfolio > div.portfolioBox:nth-child(2n) {margin:0 8.3333% 0 16.6666%;}
+#container #portfolio > div.portfolioBox .portTxt {width:41.6665%}
+#container #portfolio > div.portfolioBox .portImg {width:58.3331%;padding-right:0}
+#container #portfolio > div.portfolioBox:nth-child(2n) .portTxt {float:right;border-right:1px solid #bbb}
+#container #portfolio > div.portfolioBox:nth-child(2n) .portImg {float:left;border:none}
+}
+
+@media only screen and (min-width:1100px) and (max-width:1204px) {
+#header .headerWrap .headertitle h1 {margin-top:-16px}
+#header .headerWrap .headertitle h1 a {font-size:3.5rem}
+#aside .gnbWrap .gnb {height:225px}
+#aside .gnbWrap ul.gnbList li a {font-size:3.5rem}
+#container .home > div.Bginner3 {display:block;position:absolute;top:0;bottom:0;right:0;left:0;margin:0 0 0 50%;width:38%;background:url(../img/mobile.png)50% 50% no-repeat;background-size:contain}
+#container #portfolio > div.portfolioBox .portTxt {padding:0 15px}
+#container #portfolio > div.portfolioBox .portImg {padding-right:15px}
+#container #portfolio > div.portfolioBox .portTxt .contBox .Tobottom {padding-right:15px}
+
+#container #about .aboutTxt .aboutTxtWrap {width:91.6663%}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox {padding:0 20px 0 0 !important}
+#container #portfolio > div.portfolioBox {width:auto}
+#container #portfolio > div.portfolioBox:nth-child(2n-1),#container #portfolio > div.portfolioBox:nth-child(2n) {margin:0 8.3333% 0 16.6666%;}
+#container #portfolio > div.portfolioBox .portTxt {width:41.6665%}
+#container #portfolio > div.portfolioBox .portImg {width:58.3331%;padding-right:0}
+#container #portfolio > div.portfolioBox:nth-child(2n) .portTxt {float:right;border-right:1px solid #bbb}
+#container #portfolio > div.portfolioBox:nth-child(2n) .portImg {float:left;border:none}
+}
+
+@media only screen and (min-width:769px) and (max-width:1099px) {
+#header .headerWrap .headertitle h1 {margin-top:-13px}
+#header .headerWrap .headertitle h1 a {font-size:3rem}
+#aside .gnbWrap .gnb {height:225px}	
+#aside .gnbWrap ul.gnbList li a {font-size:2.8rem;line-height:3.5rem}
+#container .home > div.Bginner3 {display:block;position:absolute;top:0;bottom:0;right:0;left:0;margin:0 0 0 42.5%;width:50%;background:url(../img/mobile.png)50% 50% no-repeat;background-size:contain}
+#container #about {height:auto;padding: 50px 0 50px 0}
+#container #about .aboutTxt {float:none;height:auto;width:74.9997%;margin:50px 8.3333% 0 16.6666%}
+#container #about .aboutImg {float:none;height:50vh;width:83.3334%;margin:0 8.3333%;border:none;border-bottom:1px solid #bbb}
+
+#container #about .aboutImg .AImgbox {height:inherit;background:url(../img/me4.png)50% 100% no-repeat;background-size: auto;background-attachment:fixed}
+
+#container #about .aboutTxt .aboutTxtWrap {width:100%;position:inherit;margin:0 auto;height:auto}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox {padding:0 !important}
+
+#container #portfolio {padding-top:50px}
+#container #portfolio > div.portfolioBox {width:auto;height:auto;margin-bottom:50px;border-bottom:1px solid #bbb;}
+#container #portfolio > div.portfolioBox:nth-child(2n-1),#container #portfolio > div.portfolioBox:nth-child(2n) {margin:0 8.3333% 50px 16.6666%;}
+#container #portfolio > div.portfolioBox .portTxt {float:none;padding:0;width:100%;border:none!important;height:auto;padding-bottom:50px}
+#container #portfolio > div.portfolioBox .portImg {display:none}
+#container #portfolio > div.portfolioBox .portTxt .titleBox {height:auto;margin-bottom:30px}
+#container #portfolio > div.portfolioBox .portTxt .contBox .Tobottom {position:inherit;margin-top:30px;text-align:right}
+#container #portfolio > div.portfolioBox .portTxt .contBox .Tobottom {padding-right:0}
+
+#container #portfolio > div.portfolioBox .Mobile_portImg {display:block;float:none;padding:0;width:100%;border:none!important;height:50vh;margin-bottom:30px}
+#container #portfolio > div.portfolioBox .Mobile_portImg a > .portImgWrap {width:100%;height:100%;background-color:rgba(0,0,0,0);transition:all 0.7s ease;-o-transition:all 0.7s ease;-moz-transition:all 0.7s ease;overflow:hidden;position:relative}
+#container #portfolio > div.portfolioBox .Mobile_portImg a > .portImgWrap p {width:100%;height:14px;color:rgba(255,255,255,0);position:absolute;top:0;left:0;bottom:0;right:0;margin:auto;text-align:center;font-weight:400;transition:all 0.7s ease;-o-transition:all 0.7s ease;-moz-transition:all 0.7s ease}
+#container #portfolio > div.portfolioBox .Mobile_portImg a:hover .portImgWrap {background-color:rgba(0,0,0,0.85)}
+#container #portfolio > div.portfolioBox .Mobile_portImg a:hover .portImgWrap p {color:rgba(255,255,255,1)}
+	
+#container #portfolio > div.portfolioBox:first-child > .portTxt .Mobile_portImg {background:url(../img/port_1.jpg)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(2) > .portTxt .Mobile_portImg {background:url(../img/port_3.png)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(3) > .portTxt .Mobile_portImg {background:url(../img/port_4.jpg)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(4) .portTxt .Mobile_portImg {background:url(../img/port_4.png)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(5) .portTxt .Mobile_portImg {background:url(../img/port_2.png)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(6) .portTxt .Mobile_portImg {background:url(../img/port_6.png)50% 0% no-repeat;background-size:cover}
+
+#container #contact {padding:0;height:auto;margin-bottom:50px}	
+#container #contact .cont-left {float:none;margin:0;width:100%;height:50vh;border:none;background-position:50% top}
+#container #contact .cont-right {float:none;margin:0;width:100%;height:50vh}
+#container #contact .cont-right .cont-right-form form input[type=text] {width:100%}
+#container #contact .cont-right .cont-right-form form .subBtn {right:-3px}
+}
+
+@media only screen and (min-width:480px) and (max-width:768px) {
+#header {padding:20px}
+#header .headerWrap .headertitle h1 {margin:-11px 0 0 0}
+#header .headerWrap .headertitle h1 a {font-size:2.5rem}
+#header .headerWrap .headertitle h1.titleL {text-shadow:none}
+#header .headerWrap .headertitle h1.titleL a {opacity:1}
+#header .headerWrap .headertitle h1.titleR a:hover {text-shadow:none;opacity:1}
+#aside .gnbWrap .gnb {height:60px;top:100px;margin:0}
+#aside {padding-left:20px}
+#aside .gnbWrap ul.gnbList li a {font-size:1.5rem;line-height:1.8rem;font-family:'Lato','Sans-serif';font-weight:600}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox2 .about_skill_cont .about_skill_contBox p {width:100%!important;float:none!important}
+
+#floatText {display:none}
+#container > div {min-height:400px;padding:20px!important}
+#container .home > div.bg3 {display:block;width:100%;margin:0;background:url(../img/3.png)0 100% no-repeat;background-size:cover}
+#container .home > div.Bginner3 {display:block;position:absolute;top:0;bottom:0;right:0;left:0;margin:auto;width:80%;background:url(../img/mobile.png)50% 50% no-repeat;background-size:contain}
+#container #about {height:auto;padding: 50px 0 50px 0}
+#container #about .aboutTxt {float:none;height:auto;width:auto;margin:50px 0}
+#container #about .aboutImg {float:none;height:50vh;width:auto;margin:0;border:none;border-bottom:1px solid #bbb}
+#container #about .aboutImg .AImgbox {height:inherit;background:url(../img/me4.png)50% 0 no-repeat;background-size: cover}
+
+#container #about .aboutTxt .aboutTxtWrap {width:100%;position:inherit;margin:0 auto;height:auto}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap .aboutTxtWrap-top h2 {font-size:1.3em}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox {padding:0 !important;width:100%!important;float:none!important}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox .about_skill_graph {margin-bottom:30px}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox .about_skill_graph h2 {font-size:1.3em}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox2 .about_me_cont h2 {font-size:1.3em}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox .about_me_cont p {display:none}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox .about_me_cont p.Small_mobile_txt {display:block}
+
+#container #portfolio {padding:50px 20px 20px 20px}
+#container #portfolio > div.portfolioBox {width:auto;height:auto;margin-bottom:50px;border-bottom:1px solid #bbb;}
+#container #portfolio > div.portfolioBox:nth-child(2n-1),#container #portfolio > div.portfolioBox:nth-child(2n) {margin:50px 0}
+#container #portfolio > div.portfolioBox .portTxt {float:none;padding:0;width:100%;border:none!important;height:auto;padding-bottom:50px}
+#container #portfolio > div.portfolioBox .portImg {display:none}
+#container #portfolio > div.portfolioBox .portTxt .titleBox {height:auto;margin-bottom:30px}
+#container #portfolio > div.portfolioBox .portTxt .contBox .Tobottom {position:inherit;margin-top:30px;text-align:right;padding-right:0}
+
+#container #portfolio > div.portfolioBox .Mobile_portImg {display:block;float:none;padding:0;width:100%;border:none!important;height:50vh;margin-bottom:30px}
+#container #portfolio > div.portfolioBox .Mobile_portImg a > .portImgWrap {width:100%;height:100%;background-color:rgba(0,0,0,0);transition:all 0.7s ease;-o-transition:all 0.7s ease;-moz-transition:all 0.7s ease;overflow:hidden;position:relative}
+#container #portfolio > div.portfolioBox .Mobile_portImg a > .portImgWrap p {width:100%;height:14px;color:rgba(255,255,255,0);position:absolute;top:0;left:0;bottom:0;right:0;margin:auto;text-align:center;font-weight:400;transition:all 0.7s ease;-o-transition:all 0.7s ease;-moz-transition:all 0.7s ease}
+#container #portfolio > div.portfolioBox .Mobile_portImg a:hover .portImgWrap {background-color:rgba(0,0,0,0.85)}
+#container #portfolio > div.portfolioBox .Mobile_portImg a:hover .portImgWrap p {color:rgba(255,255,255,1)}
+	
+#container #portfolio > div.portfolioBox:first-child > .portTxt .Mobile_portImg {background:url(../img/port_1.jpg)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(2) > .portTxt .Mobile_portImg {background:url(../img/port_3.png)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(3) > .portTxt .Mobile_portImg {background:url(../img/port_4.jpg)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(4) .portTxt .Mobile_portImg {background:url(../img/port_4.png)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(5) .portTxt .Mobile_portImg {background:url(../img/port_2.png)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(6) .portTxt .Mobile_portImg {background:url(../img/port_6.png)50% 0% no-repeat;background-size:cover}
+
+#container #contact {padding:0;height:auto}	
+#container #contact .cont-left {float:none;margin:0;width:100%;height:55vh;border:none;background-position:50% top}
+#container #contact .cont-right {float:none;margin:0;width:100%;height:45vh;min-height:410px}
+#container #contact .cont-right .Contitle {width:100%;padding-left:20px;box-sizing:border-box}
+#container #contact .cont-right .cont-right-txtWrap {padding-left:20px;box-sizing:border-box}
+#container #contact .cont-right .cont-right-txt > div:first-child {padding-left:0}
+#container #contact .cont-right .cont-right-form .cont-right-form-title-left {padding-left:0}
+#container #contact .cont-right .cont-right-Wrap-Wrap {position:inherit;box-sizing:border-box;padding-top:50px}
+#container #contact .cont-right .cont-right-txt {width:100%}
+#container #contact .cont-right .cont-right-form {width:100%;padding-left:20px;box-sizing:border-box}
+#container #contact .cont-right .cont-right-form form {padding:0 20px 0 10%}
+#container #contact .cont-right .cont-right-form form input[type=text] {width:100%}
+#container #contact .cont-right .cont-right-form form .subBtn {right:17px}
+	
+#footer .footerWrap {padding:20px}
+}
+
+@media only screen and (max-width:478px) {
+#header {padding:10px}
+#header .headerWrap .headertitle h1 {margin:-9px 0 0 0}
+#header .headerWrap .headertitle h1 a {font-size:1.8rem}
+#header .headerWrap .headertitle h1.titleL {text-shadow:none}
+#header .headerWrap .headertitle h1.titleL a {opacity:1}
+#header .headerWrap .headertitle h1.titleR a:hover {text-shadow:none;opacity:1}
+#aside .gnbWrap .gnb {height:60px;top:100px;margin:0}
+#aside {padding-left:10px}
+#aside .gnbWrap ul.gnbList li a {font-size:1.2rem;line-height:1.5rem;font-family:'Lato','Sans-serif';font-weight:600}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox2 .about_skill_cont .about_skill_contBox p {width:100%!important;float:none!important}
+
+#floatText {display:none}
+#container > div {min-height:300px;padding:10px!important}
+#container .home > div.bg3 {display:block;width:100%;margin:0;background:url(../img/3.png)0 100% no-repeat;background-size:cover}
+#container .home > div.Bginner3 {display:block;position:absolute;top:0;bottom:0;right:0;left:0;margin:auto;width:90%;background:url(../img/mobile.png)50% 50% no-repeat;background-size:contain}
+#container #about {height:auto;padding: 50px 0 50px 0}
+#container #about {height:auto;padding: 50px 0 50px 0}
+#container #about .aboutTxt {float:none;height:auto;width:auto;margin:50px 0}
+#container #about .aboutImg {float:none;height:50vh;width:auto;margin:0;border:none;border-bottom:1px solid #bbb}
+#container #about .aboutImg .AImgbox {height:inherit;background:url(../img/me4.png)50% 0 no-repeat;background-size: cover;/*background-attachment:fixed*/}
+	
+
+#container #about .aboutTxt .aboutTxtWrap {width:100%;position:inherit;margin:0 auto;height:auto}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap .aboutTxtWrap-top h2 {font-size:1.3em}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox {padding:0 !important;width:100%!important;float:none!important}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox .about_skill_graph {margin-bottom:30px}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox .about_skill_graph h2 {font-size:1.3em}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox2 .about_me_cont h2 {font-size:1.3em}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox .about_me_cont p {display:none}
+#container #about .aboutTxt .aboutTxtWrap .aboutTxtWrap-Wrap > div.aboutTxtBox .about_me_cont p.Small_mobile_txt {display:block}
+
+#container #portfolio {padding:10px}
+#container #portfolio > div.portfolioBox {width:auto;height:auto;margin-bottom:50px;border-bottom:1px solid #bbb}
+#container #portfolio > div.portfolioBox:nth-child(2n-1),#container #portfolio > div.portfolioBox:nth-child(2n) {margin:50px 0px}
+#container #portfolio > div.portfolioBox .portTxt {float:none;padding:0;width:100%;border:none!important;height:auto;padding-bottom:50px}
+#container #portfolio > div.portfolioBox .portImg {display:none}
+#container #portfolio > div.portfolioBox .portTxt .titleBox {height:auto;margin-bottom:30px}
+#container #portfolio > div.portfolioBox .portTxt .contBox .Tobottom {position:inherit;margin-top:30px;text-align:right;padding-right:0}
+#container #portfolio > div.portfolioBox .portTxt .contBox h2 {font-size:1.2rem}
+#container #portfolio > div.portfolioBox .Mobile_portImg {display:block;float:none;padding:0;width:100%;border:none!important;height:250px;margin-bottom:30px}
+#container #portfolio > div.portfolioBox .Mobile_portImg a > .portImgWrap {width:100%;height:100%;background-color:rgba(0,0,0,0);transition:all 0.7s ease;-o-transition:all 0.7s ease;-moz-transition:all 0.7s ease;overflow:hidden;position:relative}
+#container #portfolio > div.portfolioBox .Mobile_portImg a > .portImgWrap p {width:100%;height:14px;color:rgba(255,255,255,0);position:absolute;top:0;left:0;bottom:0;right:0;margin:auto;text-align:center;font-weight:400;transition:all 0.7s ease;-o-transition:all 0.7s ease;-moz-transition:all 0.7s ease}
+#container #portfolio > div.portfolioBox .Mobile_portImg a:hover .portImgWrap {background-color:rgba(0,0,0,0.85)}
+#container #portfolio > div.portfolioBox .Mobile_portImg a:hover .portImgWrap p {color:rgba(255,255,255,1)}
+	
+#container #portfolio > div.portfolioBox:first-child > .portTxt .Mobile_portImg {background:url(../img/port_1.jpg)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(2) > .portTxt .Mobile_portImg {background:url(../img/port_3.png)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(3) > .portTxt .Mobile_portImg {background:url(../img/port_4.jpg)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(4) .portTxt .Mobile_portImg {background:url(../img/port_4.png)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(5) .portTxt .Mobile_portImg {background:url(../img/port_2.png)50% 0% no-repeat;background-size:cover}
+#container #portfolio > div.portfolioBox:nth-child(6) .portTxt .Mobile_portImg {background:url(../img/port_6.png)50% 0% no-repeat;background-size:cover}
+
+#container #contact {padding:0;height:auto}	
+#container #contact .cont-left {float:none;margin:0;width:100%;height:55vh;border:none;background-position:50% top}
+#container #contact .cont-right {float:none;margin:0;width:100%;height:45vh;min-height:410px}
+/*#container #contact .cont-right .cont-right-Wrap-Wrap {position:inherit;margin-top:50px}*/
+#container #contact .cont-right .Contitle {width:100%}
+#container #contact .cont-right .cont-right-Wrap-Wrap {position:inherit;box-sizing:border-box;padding-top:50px}
+#container #contact .cont-right .cont-right-txt {width:100%}
+#container #contact .cont-right .cont-right-form {width:100%}
+#container #contact .cont-right .cont-right-form form {padding:0 10px 0 10%}
+#container #contact .cont-right .cont-right-form form input[type=text] {width:100%}
+#container #contact .cont-right .cont-right-form form .subBtn {right:7px}
+	
+#footer .footerWrap {padding:20px 10px}
+}
